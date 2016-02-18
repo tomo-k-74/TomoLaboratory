@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39BF26771C757D4100910922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BF26761C757D4100910922 /* AppDelegate.swift */; };
+		39BF26791C757D4100910922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BF26781C757D4100910922 /* ViewController.swift */; };
+		39BF267C1C757D4100910922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BF267A1C757D4100910922 /* Main.storyboard */; };
+		39BF267E1C757D4100910922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39BF267D1C757D4100910922 /* Assets.xcassets */; };
+		39BF26811C757D4100910922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BF267F1C757D4100910922 /* LaunchScreen.storyboard */; };
+		39BF268C1C757D4100910922 /* TomoTest001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BF268B1C757D4100910922 /* TomoTest001Tests.swift */; };
+		39BF26971C757D4100910922 /* TomoTest001UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BF26961C757D4100910922 /* TomoTest001UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39BF26881C757D4100910922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39BF266B1C757D4100910922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39BF26721C757D4100910922;
+			remoteInfo = TomoTest001;
+		};
+		39BF26931C757D4100910922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39BF266B1C757D4100910922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39BF26721C757D4100910922;
+			remoteInfo = TomoTest001;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39BF26731C757D4100910922 /* TomoTest001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomoTest001.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BF26761C757D4100910922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39BF26781C757D4100910922 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39BF267B1C757D4100910922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39BF267D1C757D4100910922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39BF26801C757D4100910922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39BF26821C757D4100910922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39BF26871C757D4100910922 /* TomoTest001Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomoTest001Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BF268B1C757D4100910922 /* TomoTest001Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomoTest001Tests.swift; sourceTree = "<group>"; };
+		39BF268D1C757D4100910922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39BF26921C757D4100910922 /* TomoTest001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomoTest001UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BF26961C757D4100910922 /* TomoTest001UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomoTest001UITests.swift; sourceTree = "<group>"; };
+		39BF26981C757D4100910922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39BF26701C757D4100910922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BF26841C757D4100910922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BF268F1C757D4100910922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39BF266A1C757D4100910922 = {
+			isa = PBXGroup;
+			children = (
+				39BF26751C757D4100910922 /* TomoTest001 */,
+				39BF268A1C757D4100910922 /* TomoTest001Tests */,
+				39BF26951C757D4100910922 /* TomoTest001UITests */,
+				39BF26741C757D4100910922 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39BF26741C757D4100910922 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39BF26731C757D4100910922 /* TomoTest001.app */,
+				39BF26871C757D4100910922 /* TomoTest001Tests.xctest */,
+				39BF26921C757D4100910922 /* TomoTest001UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39BF26751C757D4100910922 /* TomoTest001 */ = {
+			isa = PBXGroup;
+			children = (
+				39BF26761C757D4100910922 /* AppDelegate.swift */,
+				39BF26781C757D4100910922 /* ViewController.swift */,
+				39BF267A1C757D4100910922 /* Main.storyboard */,
+				39BF267D1C757D4100910922 /* Assets.xcassets */,
+				39BF267F1C757D4100910922 /* LaunchScreen.storyboard */,
+				39BF26821C757D4100910922 /* Info.plist */,
+			);
+			path = TomoTest001;
+			sourceTree = "<group>";
+		};
+		39BF268A1C757D4100910922 /* TomoTest001Tests */ = {
+			isa = PBXGroup;
+			children = (
+				39BF268B1C757D4100910922 /* TomoTest001Tests.swift */,
+				39BF268D1C757D4100910922 /* Info.plist */,
+			);
+			path = TomoTest001Tests;
+			sourceTree = "<group>";
+		};
+		39BF26951C757D4100910922 /* TomoTest001UITests */ = {
+			isa = PBXGroup;
+			children = (
+				39BF26961C757D4100910922 /* TomoTest001UITests.swift */,
+				39BF26981C757D4100910922 /* Info.plist */,
+			);
+			path = TomoTest001UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39BF26721C757D4100910922 /* TomoTest001 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39BF269B1C757D4100910922 /* Build configuration list for PBXNativeTarget "TomoTest001" */;
+			buildPhases = (
+				39BF266F1C757D4100910922 /* Sources */,
+				39BF26701C757D4100910922 /* Frameworks */,
+				39BF26711C757D4100910922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TomoTest001;
+			productName = TomoTest001;
+			productReference = 39BF26731C757D4100910922 /* TomoTest001.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39BF26861C757D4100910922 /* TomoTest001Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39BF269E1C757D4100910922 /* Build configuration list for PBXNativeTarget "TomoTest001Tests" */;
+			buildPhases = (
+				39BF26831C757D4100910922 /* Sources */,
+				39BF26841C757D4100910922 /* Frameworks */,
+				39BF26851C757D4100910922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39BF26891C757D4100910922 /* PBXTargetDependency */,
+			);
+			name = TomoTest001Tests;
+			productName = TomoTest001Tests;
+			productReference = 39BF26871C757D4100910922 /* TomoTest001Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39BF26911C757D4100910922 /* TomoTest001UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39BF26A11C757D4100910922 /* Build configuration list for PBXNativeTarget "TomoTest001UITests" */;
+			buildPhases = (
+				39BF268E1C757D4100910922 /* Sources */,
+				39BF268F1C757D4100910922 /* Frameworks */,
+				39BF26901C757D4100910922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39BF26941C757D4100910922 /* PBXTargetDependency */,
+			);
+			name = TomoTest001UITests;
+			productName = TomoTest001UITests;
+			productReference = 39BF26921C757D4100910922 /* TomoTest001UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39BF266B1C757D4100910922 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "川上友規";
+				TargetAttributes = {
+					39BF26721C757D4100910922 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					39BF26861C757D4100910922 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 39BF26721C757D4100910922;
+					};
+					39BF26911C757D4100910922 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 39BF26721C757D4100910922;
+					};
+				};
+			};
+			buildConfigurationList = 39BF266E1C757D4100910922 /* Build configuration list for PBXProject "TomoTest001" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39BF266A1C757D4100910922;
+			productRefGroup = 39BF26741C757D4100910922 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39BF26721C757D4100910922 /* TomoTest001 */,
+				39BF26861C757D4100910922 /* TomoTest001Tests */,
+				39BF26911C757D4100910922 /* TomoTest001UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39BF26711C757D4100910922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BF26811C757D4100910922 /* LaunchScreen.storyboard in Resources */,
+				39BF267E1C757D4100910922 /* Assets.xcassets in Resources */,
+				39BF267C1C757D4100910922 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BF26851C757D4100910922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BF26901C757D4100910922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39BF266F1C757D4100910922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BF26791C757D4100910922 /* ViewController.swift in Sources */,
+				39BF26771C757D4100910922 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BF26831C757D4100910922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BF268C1C757D4100910922 /* TomoTest001Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BF268E1C757D4100910922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BF26971C757D4100910922 /* TomoTest001UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39BF26891C757D4100910922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39BF26721C757D4100910922 /* TomoTest001 */;
+			targetProxy = 39BF26881C757D4100910922 /* PBXContainerItemProxy */;
+		};
+		39BF26941C757D4100910922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39BF26721C757D4100910922 /* TomoTest001 */;
+			targetProxy = 39BF26931C757D4100910922 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39BF267A1C757D4100910922 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39BF267B1C757D4100910922 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39BF267F1C757D4100910922 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39BF26801C757D4100910922 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39BF26991C757D4100910922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39BF269A1C757D4100910922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39BF269C1C757D4100910922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TomoTest001/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomotest001.TomoTest001;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39BF269D1C757D4100910922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TomoTest001/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomotest001.TomoTest001;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		39BF269F1C757D4100910922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TomoTest001Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomotest001.TomoTest001Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TomoTest001.app/TomoTest001";
+			};
+			name = Debug;
+		};
+		39BF26A01C757D4100910922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TomoTest001Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomotest001.TomoTest001Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TomoTest001.app/TomoTest001";
+			};
+			name = Release;
+		};
+		39BF26A21C757D4100910922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TomoTest001UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomotest001.TomoTest001UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TomoTest001;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		39BF26A31C757D4100910922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TomoTest001UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomotest001.TomoTest001UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TomoTest001;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39BF266E1C757D4100910922 /* Build configuration list for PBXProject "TomoTest001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39BF26991C757D4100910922 /* Debug */,
+				39BF269A1C757D4100910922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39BF269B1C757D4100910922 /* Build configuration list for PBXNativeTarget "TomoTest001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39BF269C1C757D4100910922 /* Debug */,
+				39BF269D1C757D4100910922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39BF269E1C757D4100910922 /* Build configuration list for PBXNativeTarget "TomoTest001Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39BF269F1C757D4100910922 /* Debug */,
+				39BF26A01C757D4100910922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39BF26A11C757D4100910922 /* Build configuration list for PBXNativeTarget "TomoTest001UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39BF26A21C757D4100910922 /* Debug */,
+				39BF26A31C757D4100910922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39BF266B1C757D4100910922 /* Project object */;
+}
